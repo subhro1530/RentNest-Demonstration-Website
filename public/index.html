@@ -16,22 +16,22 @@
   </head>
   <body>
     <nav class="navbar">
-  <div class="menu-icon">
-    <i class="fas fa-bars"></i>
-  </div>
-  <div class="logo">
-    <img src="images/full.png" alt="RentNest Logo" />
-  </div>
-  <div class="nav-links close">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#review">Review</a>
-    <a href="#featured">Featured</a>
-    <a href="#team">Team</a>
-    <a href="#contact">Contact</a>
-    <a href="#location">Location</a>
-  </div>
-</nav>
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="logo">
+        <img src="images/full.png" alt="RentNest Logo" />
+      </div>
+      <div class="nav-links close">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#review">Review</a>
+        <a href="#featured">Featured</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+        <a href="#location">Location</a>
+      </div>
+    </nav>
 
     <!-- Rest of your website content goes here -->
     <section id="home" class="home-section">
@@ -43,7 +43,7 @@
           Find your perfect rental house or PG accommodation with RentNest,
           offering quality housing options for students and servicemen.
         </p>
-        <a href="#contact" class="cta-button">Explore Now</a>
+        <a href="#featured" class="cta-button">Explore Now</a>
       </div>
     </section>
 
@@ -91,12 +91,74 @@
       </div>
     </section>
 
-    <section id="review">
-      <!-- Review content goes here -->
+    <section id="review" class="review-section">
+      <div class="review-navigation">
+        <button class="nav-button" id="prev-review">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+      </div>
+      <div class="review-container">
+        <div class="review-block">
+          <div class="quote">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="review-text">
+            "RentNest made finding a suitable PG accommodation so easy. The
+            platform is user-friendly and secure. I am grateful for the variety
+            of options available."
+          </p>
+          <p class="person-name">- Asha Gupta</p>
+        </div>
+        <div class="review-block">
+          <div class="quote">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="review-text">
+            "I found my dream apartment through RentNest. It's hassle-free and
+            the listings are genuine. The customer support was also quick in
+            resolving my queries."
+          </p>
+          <p class="person-name">- Rahul Singh</p>
+        </div>
+        <!-- Add more review blocks here -->
+      </div>
+      <div class="review-navigation">
+        <button class="nav-button" id="next-review">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
     </section>
 
-    <section id="featured">
-      <!-- Featured content goes here -->
+    <section id="featured" class="featured-section">
+      <div class="featured-content">
+        <h2 class="section-heading">Featured Properties</h2>
+        <div class="property-list">
+          <div class="property-card">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/over-the-top-apartments-main-1512422328.jpg?crop=1xw:0.75xh;center,top&resize=1200:*" alt="Featured Property 1" />
+            <h3 class="property-title">Luxury Apartment</h3>
+            <p class="property-description">
+              Spacious and modern apartment with stunning city views.
+            </p>
+            <a href="#" class="property-link">View Details</a>
+          </div>
+          <div class="property-card">
+            <img src="https://homeworlddesign.com/wp-content/uploads/2015/05/Cozy-studio.jpg" alt="Featured Property 2" />
+            <h3 class="property-title">Cozy Studio</h3>
+            <p class="property-description">
+              Charming studio with great amenities and a convenient location.
+            </p>
+            <a href="#" class="property-link">View Details</a>
+          </div>
+          <div class="property-card">
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/198903572.jpg?k=150ec7c1bb54d974a130bad0dccf16a94623c6148eb880533d8008f398afff36&o=&hp=1" alt="Featured Property 3" />
+            <h3 class="property-title">Elegant Villa</h3>
+            <p class="property-description">
+              Gorgeous villa with a private pool and lush gardens.
+            </p>
+            <a href="#" class="property-link">View Details</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="team">
