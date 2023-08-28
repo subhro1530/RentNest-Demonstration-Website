@@ -36,3 +36,4 @@ document.addEventListener("DOMContentLoaded", function () {
     reviewBlocks[activeReview].classList.add("active");
   }
 });
+

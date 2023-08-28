@@ -404,3 +404,60 @@ html {
 .property-link:hover {
   background-color: #0056b3;
 }
+
+/* Contact Section Styles */
+.contact-section {
+  background-image: url("https://images.ctfassets.net/0gqf8nju6pz6/3w36aYvCCihRoxvfhd5c32/dd185cb2b5bb97153c6feed640262693/real-estate-asset-classes-hero.jpeg");
+  background-size: cover;
+  background-color: rgb(60, 60, 60);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 90%;
+  padding:10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#contact-form textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
