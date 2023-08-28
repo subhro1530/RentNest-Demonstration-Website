@@ -13,7 +13,8 @@ li {
   font-family: "Titillium Web", sans-serif;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: black;
   background: white;
 }
@@ -228,7 +229,6 @@ html {
   margin-bottom: 10px;
 }
 
-
 .review-section {
   background-image: url("https://wallpaperaccess.com/full/1899348.jpg");
   background-size: cover;
@@ -325,8 +325,6 @@ html {
     padding: 20px;
   }
 }
-
-
 
 /* Featured Section Styles */
 /* Add these styles to your existing CSS */
@@ -438,7 +436,7 @@ html {
 #contact-form input,
 #contact-form textarea {
   width: 90%;
-  padding:10px;
+  padding: 10px;
   margin-bottom: 20px;
   border: none;
   border-radius: 5px;
@@ -460,4 +458,59 @@ html {
 
 .submit-button:hover {
   background-color: #0056b3;
+}
+
+.location-section {
+  background-image: url("https://wallpapercave.com/wp/wp7537471.jpg");
+  background-size: cover;
+  background-color: rgb(60, 60, 60);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.location-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.map {
+  height: 400px;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #0056b3;
 }
