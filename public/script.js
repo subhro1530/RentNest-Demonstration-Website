@@ -66,3 +66,19 @@ document.addEventListener("DOMContentLoaded", async function () {
 });
 
 
+// JavaScript for smooth scrolling and carousel navigation
+document.addEventListener("DOMContentLoaded", function () {
+  const teamCarousel = document.querySelector(".team-carousel");
+  const prevArrow = document.querySelector(".carousel-arrow.prev");
+  const nextArrow = document.querySelector(".carousel-arrow.next");
+
+  prevArrow.addEventListener("click", () => {
+    teamCarousel.scrollLeft -= teamCarousel.offsetWidth;
+  });
+
+  nextArrow.addEventListener("click", () => {
+    teamCarousel.scrollLeft += teamCarousel.offsetWidth;
+  });
+});
+
+
