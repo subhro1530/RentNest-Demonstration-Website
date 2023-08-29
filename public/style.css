@@ -514,3 +514,140 @@ html {
 .footer a:hover {
   color: #0056b3;
 }
+
+
+/* Contact Details Section Styles */
+.contact-details-section {
+  background-color: #f5f5f5;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact-details-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-details-section .section-heading {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.contact-item i {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #007bff;
+}
+
+.contact-item p {
+  font-size: 18px;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Team Section Styles */
+.team-section {
+  background-color: #222;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.team-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.team-carousel {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  padding: 20px 0;
+}
+
+.team-members {
+  display: flex;
+}
+
+.team-member {
+  flex: 0 0 33.33%;
+  padding: 0 15px;
+  text-align: center;
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.team-member h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Team Carousel Arrows */
+.carousel-arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.carousel-arrow {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.carousel-arrow:hover {
+  opacity: 0.7;
+}
